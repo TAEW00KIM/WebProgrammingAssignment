@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korean Wave</title>
+    <!-- Bootstrap: CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="main.css" rel="stylesheet" />
+    <link href="place.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- Bootstrap: JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      function calcHeight() {
+        var theHeight = document.getElementsById('iframe').contentWindow.document.body.scrollHeight;
+        document.getEelementById('iframe') = theHeight;
+        document.getElementById('iframe').style.overflow = "hidden";
+      }
+    </script>
+    <div id="wrap">
+      <section class="footer-separation">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Hallyu</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="bts.html"
+                    >BTS</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="place.html">Places</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="series.html">Series</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <section>
+          <div class="page-info place-container">
+            <p>
+              In this section, I will show some famouse places in Korea good to
+              visit.
+            </p>
+            <p>The videos are made by Imagine Your Korea channel on Youtube</p>
+          </div>
+        </section>
+
+        <section>
+          <div class="place-container reveal">
+            <p class="video-info">Video about Seoul & Incheon</p>
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/5VxYrmnwQiA?autoplay=1&loop=1&playlist=5VxYrmnwQiA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                onload="calcHeight()"
+                scrolling="no"
+                style="
+                  overflow-x: hidden;
+                  overflow: auto;
+                  width: 100%;
+                  min-height: 500px;
+                "
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="place-container reveal">
+            <p>Video about Jeju</p>
+            <div class="video">
+              <iframe
+                class="jeju-video"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/gux_pyEIcUY?autoplay=1&loop=1&playlist=gux_pyEIcUY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                onload="calcHeight()"
+                scrolling="no"
+                style="
+                  overflow-x: hidden;
+                  overflow: auto;
+                  width: 100%;
+                  min-height: 500px;
+                "
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="place-container reveal">
+            <p>Video about Busan</p>
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/xLD8oWRmlAE?autoplay=1&loop=1&playlist=xLD8oWRmlAE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                onload="calcHeight()"
+                scrolling="no"
+                style="
+                  overflow-x: hidden;
+                  overflow: auto;
+                  width: 100%;
+                  min-height: 500px;
+                "
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="place-container reveal">
+            <p>Video about Daegu</p>
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/u1yKAaW5_vc?autoplay=1&loop=1&playlist=u1yKAaW5_vc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                onload="calcHeight()"
+                scrolling="no"
+                style="
+                  overflow-x: hidden;
+                  overflow: auto;
+                  width: 100%;
+                  min-height: 500px;
+                "
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="place-container reveal last">
+            <p>Video about Gyeongju & Andong</p>
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/dqkfpKJw348?autoplay=1&loop=1&playlist=dqkfpKJw348"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                onload="calcHeight()"
+                scrolling="no"
+                style="
+                  overflow-x: hidden;
+                  overflow: auto;
+                  width: 100%;
+                  min-height: 500px;
+                "
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <script src="index.js"></script>
+      </section>
+
+      <footer>
+        <nav>
+          <a href="https://github.com/TAEW00KIM">Github</a>
+          <a href="https://velog.io/@twkk0819">Blog</a>
+        </nav>
+        <p>
+          <span>202101099 김태우</span>
+          <span>Email: twkk0819@gmail.com</span>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

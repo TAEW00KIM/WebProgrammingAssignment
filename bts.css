@@ -1,0 +1,87 @@
+.bts-container > p {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.half1,
+.half2,
+.half3 {
+  width: 100%;
+  height: 700px;
+}
+
+.left {
+  width: 50%;
+  margin-top: 9%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.photo1 {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 5%;
+}
+
+.photo2 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 5%;
+  margin-bottom: 10%;
+}
+
+.bottom-right {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  margin-top: 11%;
+}
+
+.bottom-left {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 8%;
+}
+
+.photo3 {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 5%;
+}
+
+.bottom-1 {
+  padding-top: 15%;
+  margin: 0 0 10px 10px;
+}
+
+.bottom-2 {
+  margin-bottom: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.video {
+  overflow: auto;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+iframe {
+  margin-top: 10%;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}

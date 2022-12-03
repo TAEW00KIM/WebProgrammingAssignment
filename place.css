@@ -1,0 +1,44 @@
+.place-container > p {
+  color: rgb(0, 144, 255);
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.page-info {
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+
+.page-info > p {
+  color: rgb(0, 144, 255);
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.video-info {
+  margin-top: 10%;
+}
+
+.video {
+  overflow: auto;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+iframe {
+  margin-bottom: 10%;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.last {
+  padding-bottom: 10%;
+}

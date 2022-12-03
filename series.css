@@ -1,0 +1,97 @@
+h2 {
+  color: rgb(0, 144, 255);
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.series-container > p {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.half1,
+.half2,
+.half3,
+.half4 {
+  width: 100%;
+  height: 1000px;
+}
+
+.squidgame-info2 {
+  margin-top: 10%;
+}
+
+.left {
+  width: 50%;
+  margin-top: 15%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.photo1 {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 5%;
+}
+
+.photo2 {
+  width: 45%;
+  float: left;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 5%;
+  margin-left: 2%;
+}
+
+.bottom-right {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  margin-top: 20%;
+  margin-right: 2%;
+}
+
+.bottom-left {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 14%;
+}
+
+.bottom-left2 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 20%;
+}
+
+.photo3 {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 5%;
+}
+
+.bottom-1 {
+  padding-top: 15%;
+  margin: 0 0 10px 10px;
+}
+
+.bottom-2 {
+  margin-bottom: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom-1 > p,
+.bottom-2 > p {
+  font-size: 32px;
+}
